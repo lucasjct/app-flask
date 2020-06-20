@@ -1,2 +1,2 @@
 # app-flask
-Delivery application with Flask
+Food app delivery with Flask
