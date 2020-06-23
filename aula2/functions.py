@@ -22,6 +22,26 @@ def ola(nome, maiusculo=False):
 
 ola("Lucas", True)
 
+##calcular ano com datetime
+import datetime
+
+ano = [1989, 1990, 2000, 1977, 1989, 1966, 1949]
+
+def calcularIdade(ano):
+  idades = []
+  
+  for paste in ano:
+    current = datetime.datetime.now()
+    today = int(current.strftime("%Y"))
+    today = int(today)
+    idade = today - paste
+    idades.append(idade)
+
+  print(idades)
+  print(sum(idades)/len(idades))
+
+calcularIdade(ano)
+
 #Funções dentro de funções Utilidade
 #Funções não devem receber muitos argumentos (mais de 8 fica complexa a manutenção)
 def ola(nome, maiusculo=False):
