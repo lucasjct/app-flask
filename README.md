@@ -1,2 +1,2 @@
 # app-flask
-Food app delivery with Flask
+Food delivery app with Flask
