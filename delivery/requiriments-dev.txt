@@ -1,0 +1,7 @@
+black
+flacke8
+flask-debugtoolbar
+flask-shell-ipython
+ipdb
+pytest
+pytest-flask
