@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends "base.html" %}
+
+
+{% block top %}
+<section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Delivery Food
+      </h1>
+      <p class="subtitle">
+       Comida boa, barata e de qualidade!
+      </p>
+    </div>
+  </div>
+</section>
+{% endblock top %}
+
+
+{% block main %}
+<h1>DeliveryFood, projeto de delivery de comida!</h1>
+{% endblock main %}
