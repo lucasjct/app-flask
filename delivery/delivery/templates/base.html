@@ -31,16 +31,16 @@
     
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <a class="navbar-item" href="/">
               Home
             </a>
   
-            <a class="navbar-item">
+            <a class="navbar-item"  href="{{ url_for('site.restaurant') }}">
               Restaurantes
             </a>
       
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
+              <a class="navbar-link" href="{{ url_for('site.about') }}">
                 More
               </a>
       
