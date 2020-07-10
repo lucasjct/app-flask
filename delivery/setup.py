@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages ##Search path from all __init__
 
 
 def read(filename):
@@ -15,7 +15,7 @@ setup(
     description="Delivery app",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=read("requirements.txt"),
+    install_requires=read("requirements.txt"), #read -  function above
     extras_require={
         "dev": read("requirements-dev.txt")
     }
